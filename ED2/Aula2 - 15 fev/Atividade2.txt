@@ -1,0 +1,21 @@
+Fragmento:
+
+    int i, j,k ,s;
+    for(i = 0; i < n - 1; i++){
+        for(j = i+1; j < n; j++){
+            for(k = 1; k < j; k++){
+                s = 1
+            }
+        }
+    }
+
+Complexidade:
+A complexidade do primeiro e segundo for são de: O(N)
+já do terceiro for é de: O(J) , pois a quantidade de iterações é definida por uma variavel independente de n
+
+Portanto, a complexidade total é de: O(N^2) * O(J)
+
+
+
+
+GU3027261

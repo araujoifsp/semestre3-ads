@@ -1,0 +1,21 @@
+typedef struct NO *ArvAVL;
+
+ArvAVL *cria_arvAvl();
+struct NO *procuramenor(struct NO *atual);
+void liberar_arvAvl(ArvAVL *raiz);
+int alt_no(struct NO * no);
+int maior(int x, int y);
+void rotacaoLL(ArvAVL *raiz);
+void rotacaoRR(ArvAVL *raiz);
+void rotacaoLR(ArvAVL *raiz);
+void rotacaoRL(ArvAVL *raiz);
+int insere_arvAvl(ArvAVL *raiz, int valor);
+int remove_arvAvl(ArvAVL *raiz, int valor);
+int fatorBalanceamento_NO(struct NO *no);
+int vazia_arvAvl(ArvAVL *raiz);
+int altura_arvAvl(ArvAVL *raiz);
+int totalNO_arvAvl(ArvAVL *raiz);
+void preOrdem_arvAvl(ArvAVL *raiz);
+void emOrdem_arvAvl(ArvAVL *raiz);
+void posOrdem_arvAvl(ArvAVL *raiz);
+int consulta_arvAvl(ArvAVL *raiz, int valor);

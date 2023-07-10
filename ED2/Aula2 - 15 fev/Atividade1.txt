@@ -1,0 +1,22 @@
+Fragmento:
+
+    int i, k, k
+    for(i = 0; i < n; i++){
+        for(j = 0;j < n; j++){
+            r[i][j] = 0;
+            for(k = 0; k < n; k++){
+                r[i][j] += a[i][k] * b[k][j];
+            }
+        }
+    }
+
+Complexidade:
+A complexidade de cada for é de: O(N), pois a quantidade de iterações é variavel
+Para obter a complexidade total fazemos: O(N) * O(N) * O(N) = O(N^3)
+
+Portanto, a complexidade desse fragmento é de: O(N^3)
+
+
+
+
+GU3027261

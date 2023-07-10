@@ -1,0 +1,24 @@
+Frangmento:
+
+    int i, j, s;
+    s = 0;
+    for(i = 1;i < n -1;i++){
+        for(j = 1;j < 2 * n; j++){
+            s = s + 1;
+        }
+    }
+
+Complexidade:
+
+complexidade 1º for: O(n)
+complexidade 2º for: O(n*2)
+
+complexidade total do fragmento: O((N^2)*2)
+
+
+
+
+
+
+
+GU3027261
